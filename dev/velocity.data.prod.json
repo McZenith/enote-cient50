@@ -1,0 +1,11 @@
+{
+  "title": "e-note - Banking your thoughts!",
+  "debug": false,
+  "experiments": {},
+  "locale": "en",
+  "basename": "/",
+  "clientTopology": {
+    "staticsDomain": "static.parastorage.com",
+    "staticsBaseUrl": "https://enote.vercel.app/"
+  }
+}

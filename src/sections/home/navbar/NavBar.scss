@@ -1,0 +1,55 @@
+.btn {
+  border-radius: 3px;
+  padding: 4px 8px;
+  height: 2.25em;
+  color: #0079bf;
+  font-family: 'Charlie Text', sans-serif;
+  font-size: 1.093rem;
+  line-height: 1.64rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn__large {
+  @extend .btn;
+  color: #0079bf;
+  font-weight: 500;
+  width: 5.125em;
+  background-color: white;
+  border: none;
+}
+
+.btn__small {
+  @extend .btn;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+  margin: 0px;
+  width: 4.188em;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.nav {
+  height: 4.5em;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease-in;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0079bf;
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
