@@ -12,7 +12,8 @@
     "npm": "6.x"
   },
   "scripts": {
-    "start": "yoshi start",
+    "start:dev": "yoshi start",
+    "start": "node server.js",
     "build": "yoshi build",
     "test": "yoshi test",
     "lint": "yoshi lint",
