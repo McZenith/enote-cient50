@@ -1,7 +1,7 @@
 const { Engine } = require('velocity');
 
 const velocityDataPrivate = require('./velocity.private.data.json');
-const VelocityDataProd = require('./velocity.data.prod.json');
+const velocityDataProd = require('./velocity.data.prod.json');
 
 
 const engine = new Engine({ template: './src/index.vm' });
