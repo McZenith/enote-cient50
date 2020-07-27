@@ -14,10 +14,7 @@
   "scripts": {
     "start:dev": "yoshi start",
     "start": "node server.js",
-    "build": "yoshi build",
-    "teggf": "yoshi test",
-    "lint": "yoshi lint",
-    "posttest": "npm run lint"
+    "build": "yoshi build"
   },
   "husky": {
     "hooks": {
