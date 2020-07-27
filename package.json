@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start:dev": "yoshi start",
-    "start": "node server.js",
+    "start": "node dist/server.js",
     "build": "yoshi build"
   },
   "husky": {
