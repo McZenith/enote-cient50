@@ -6,6 +6,6 @@
   "basename": "/",
   "clientTopology": {
     "staticsDomain": "static.parastorage.com",
-    "staticsBaseUrl": "https://testenta.azureedge.net/statics/"
+    "staticsBaseUrl": "https://flezcdn.azureedge.net/"
   }
 }
